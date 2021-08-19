@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+i {
+  margin-top: 5px;
+  color: #3c5cbe;
+}
+i:hover {
+  color: #334d9b;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+}
+td {
+  border: black solid 1px;
+  padding-left: 10px;
+}
+.search {
+  width: 100%;
+  height: 40px;
+  margin: auto;
+}
+input[type="search"] {
+  border-style: none;
+  background-color: rgba(255, 250, 241, 0.87);
+  width: 68%;
+  height: 50px;
+  margin: 20px 0 20px 40px;
+  border: solid 1px #cbc9c9;
+}
+button {
+  background: #3c5cbe;
+  border-style: none;
+  border-radius: 2px;
+  height: 50px;
+  width: 25%;
+  margin-left: 25px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Inconsolata", monospace;
+}
+.save-button {
+  margin-left: 0;
+}
+.next {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.confirm {
+  margin-left: 0;
+}
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+fieldset div {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.delivery-time {
+  text-align: start;
+  margin-left: 40px;
+}
+.search h3 {
+  margin: 10px 0 0 35px;
+}
+.delivery-address {
+  margin: auto;
+}
+.delivery-details,
+.personal-details h1 {
+  font-weight: 700;
+}
+.delivery-details,
+.personal-details {
+  width: 70%;
+  margin: auto;
+}
+.delivery-details h1 i {
+  margin: 0 10px 0 0;
+}
+.address {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  padding: auto;
+}
+.address:hover {
+  border: solid #3c5cbe 1px;
+}
+.address-list {
+  margin-top: 140px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 15px;
+}
+.set-address {
+  width: 50%;
+  margin: auto;
+  height: 400px;
+}
+.payment-select {
+  margin: auto;
+  width: 60%;
+}
+/* .payment-select i {
+  margin: 0 20px 0 90%;
+}
+.payment-select .card {
+  margin: 0 20px 0 76.2%;
+} */
